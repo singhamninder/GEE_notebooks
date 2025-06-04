@@ -1,9 +1,7 @@
 import ee
 
 
-# --- Implementation inspired from eemont ---
-
-
+# --- inspired by awesome-spectral-indices and eemont---
 # Extend Decorator
 def extend(cls, static=False):
     """Extends the cls class."""
@@ -15,7 +13,7 @@ def extend(cls, static=False):
 
 # Spectral Index Calculator Class ---
 class SpectralIndexCalculator:
-    """Universal spectral index processor for GEE, inspired by awesome-spectral-indices and eemont."""
+    """Universal spectral index processor for GEE"""
 
     INDEX_CATALOG = {
         "NDVI": {
